@@ -1,0 +1,13 @@
+# Keyboard-event automation (sends real OS key events; no clipboard paste).
+pynput==1.7.7
+
+# Reading source documents.
+python-docx==1.1.2
+python-pptx==1.0.2
+
+# Best-effort detection of running target applications.
+psutil==6.0.0
+
+# Windows COM automation, used ONLY to create PowerPoint slides/placeholders.
+# Installed on Windows only; not needed for --dry-run or the unit tests.
+pywin32==306 ; sys_platform == "win32"

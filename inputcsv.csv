@@ -1,0 +1,7 @@
+Name,Role,City,Score,Note
+Alice,Engineer,Nairobi,91,"Lead, backend"
+Bob,Designer,Mombasa,88,
+Carol,Analyst,Kisumu,,On leave
+Dan,Manager,Nakuru,77,"Covers teams A, B and C"
+
+Eve,Intern,Eldoret,64,=SUM(A1:A2)
